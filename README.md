@@ -37,7 +37,4 @@ Normal text goes here.
 
 ## Sep4
 ## Status
-Working through branches. slightly confused but getting there.
-
-
-
+Learning Git. Branches make sense now; merge conflicts are next
