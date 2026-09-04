@@ -12,8 +12,6 @@ Normal text goes here.
 [alink] {https://github.com)
 
 
-
-
 #CSC 441 -- [Emmanuel]
 
 ##
@@ -29,5 +27,16 @@ Normal text goes here.
 
 ## Notes to future me
 
+
+## My goals for this course
+- To learn everything I can about git
+- To achieve a stronger base on with my coding skills
+- To have fun while doing it
+
+
+
+## Sep4
+## Status
+just getting started
 
 
