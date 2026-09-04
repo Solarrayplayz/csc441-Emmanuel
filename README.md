@@ -37,7 +37,7 @@ Normal text goes here.
 
 ## Sep4
 ## Status
-Learning Git and feeling good abput it.
+Learning Git and feeling good about it.
 
 
 
