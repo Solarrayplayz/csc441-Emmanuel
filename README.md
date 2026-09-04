@@ -37,7 +37,4 @@ Normal text goes here.
 
 ## Sep4
 ## Status
-Learning Git and feeling good abput it.
-
-
-
+Learning Git. Branches make sense now; merge conflicts are next
