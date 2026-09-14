@@ -1,16 +1,3 @@
-# Big heading 
-## Smaller heading 
-
-Normal text goes here.
-
-- a bullet
-- another bullet
-
-**bold text** and *italic text8
-
-'inline code'
-[alink] {https://github.com)
-
 
 #CSC 441 -- [Emmanuel]
 
@@ -33,8 +20,13 @@ Normal text goes here.
 - To achieve a stronger base on with my coding skills
 - To have fun while doing it
 
+## Tools I have installed
+- [X] Git
+- [X] IntelliJ IDEA Community Edition
+- [ ] Android Studio
+- [ ] VS Cod
 
-
-## Sep4
 ## Status
 Learning Git. Branches make sense now; merge conflicts are next
+
+
