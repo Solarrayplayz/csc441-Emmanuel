@@ -33,7 +33,7 @@ fun main() {
 
     println("---Step 5 - Reading input")
     print("what's your name? ")
-    val yourName = readlnOrNull()
+    val yourName = readln()
     println("Hello, $yourName")
 
 }
