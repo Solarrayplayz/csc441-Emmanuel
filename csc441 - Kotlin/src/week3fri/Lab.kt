@@ -1,56 +1,46 @@
 package week3fri
 
 fun main() {
-    for (i in 1..5) {
-        print("$i ")
-    }
-    println()
-    for (letter in 'a'..'e') {
-        print("$letter ")
-    }
-    println()
-
-    for (i in 10 downTo 1) {
-        print("$i ")
-    }
-    println()
-    for (i in 0..100 step 25) {
+    for (i in 1..10) {
         print("$i ")
     }
     println()
 
-    val shoppingList = mutableListOf("Milk", "Bread", "Coffee")
-    for (item in shoppingList) {
+    for (i in 20 downTo 1 step 3) {
+        print("$i ")
+    }
+    println()
+
+    val packingList = mutableListOf("Passport", "Racket", "Charger", "Sneakers")
+
+    for (item in packingList) {
         println(item)
     }
-    for ((index, item) in shoppingList.withIndex()) {
-        println("$index: $item")
-    }
-    shoppingList.forEachIndexed { index, item ->
+
+    packingList.forEachIndexed { index, item ->
         println("$index is $item")
     }
 
-    for (i in 0 until shoppingList.size) {
-        println("$i: ${shoppingList[i]}")
+    for (i in 0 until packingList.size) {
+        println("$i: ${packingList[i]}")
     }
 
-    val day = "Wednesday"
-    when (day) {
-        "Monday" -> println("5 days till weekend")
-        "Tuesday" -> println("4 days till weekend")
-        "Wednesday" -> println("3 days till weekend")
-        else -> println("weekend is close")
+    val dayNumber = 3
+    val dayName = when (dayNumber) {
+        1 -> "Monday" -> println("1st day of vacation")
+        2 -> "Tuesday" -> println("2ndst day of vacation")
+        3 -> "Wednesday" -> println("3rdst day of vacation")
+        4 -> "Thursday" -> println("4th day of vacation")
+        5 -> "Friday" -> println("5th day of vacation")
+        6 -> "Saturday" -> println("6th day of vacation")
+        7 -> "Sunday" -> println("Last day of vacation")
+        else -> println("vacation is over :(")
     }
+    println(dayName)
 
-    val age = 22
-    val amIOld = when (age) {
-        in 1..50 -> false
-        in 20..100 -> true
-        else -> true
-    }
-    println(amIOld)
+    val spent = 450
+    val budgetStatus = if (spent > 400) "Trip is over budget" else "Trip is under budget"
+    println(budgetStatus)
 
-    val years = 10
-    val level = if (years > 20) "Senior" else "Junior"
-    println(level)
+
 }
