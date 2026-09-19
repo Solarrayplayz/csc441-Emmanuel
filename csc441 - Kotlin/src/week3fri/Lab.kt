@@ -1,6 +1,6 @@
 package week3fri
 
-fun main() {
+    fun main() {
     for (i in 1..10) {
         print("$i ")
     }
@@ -26,21 +26,22 @@ fun main() {
     }
 
     val dayNumber = 3
-    val dayName = when (dayNumber) {
-        1 -> "Monday" -> println("1st day of vacation")
-        2 -> "Tuesday" -> println("2ndst day of vacation")
-        3 -> "Wednesday" -> println("3rdst day of vacation")
-        4 -> "Thursday" -> println("4th day of vacation")
-        5 -> "Friday" -> println("5th day of vacation")
-        6 -> "Saturday" -> println("6th day of vacation")
-        7 -> "Sunday" -> println("Last day of vacation")
-        else -> println("vacation is over :(")
-    }
-    println(dayName)
+    val message = when (dayNumber) {
+
+            1 -> "Monday - 1st day of summer vacation"
+            2 -> "Tuesday - 2nd day of summer vacation"
+            3 -> "Wednesday - 3rd day of summer vacation"
+            4 -> "Thursday - 4th day of summer vacation"
+            5 -> "Friday - 5th day of summer vacation"
+            6 -> "Saturday - 6th day of summer vacation"
+            7 -> "Last day of summer vacation"
+            else -> "Vacation is over :("
+            }
+
+            println(message)
 
     val spent = 450
     val budgetStatus = if (spent > 400) "Trip is over budget" else "Trip is under budget"
     println(budgetStatus)
-
 
 }
