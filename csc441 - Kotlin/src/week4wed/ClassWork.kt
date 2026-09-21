@@ -19,7 +19,7 @@ fun main () {
     println(todaysExercise4(2))
 
     println("---Step 6: two parameters. and naming them---")
-    println(todaysExercise5(dayNumber = 2, "Emmanuel"))
+    println(todaysExercise5(2, name = "Emmanuel"))
     println(todaysExercise5(name = "Sam"))
 }
 
@@ -66,7 +66,7 @@ fun todaysExercise4(dayNumber: Int = 1): String = when (dayNumber) {
 
 }
 
-fun todaysExercise5(dayNumber: Int = 1, name: String = "you"): String {
+fun todaysExercise5(dayNumber: Int = 1, name: String = "Emmanuel"): String {
     val exercise = when (dayNumber) {
         1 -> "Push-ups"
         2 -> "Running"
